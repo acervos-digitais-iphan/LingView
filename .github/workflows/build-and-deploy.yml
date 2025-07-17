@@ -34,6 +34,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: bundle
+          clean: true
 
   build-and-save-offline:
     runs-on: ubuntu-latest
