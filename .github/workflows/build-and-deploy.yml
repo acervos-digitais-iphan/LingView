@@ -34,7 +34,6 @@ jobs:
     - name: Deploy online version to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: bundle # The folder the action should deploy.
 
