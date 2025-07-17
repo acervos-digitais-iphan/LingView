@@ -11,6 +11,7 @@ export const LocaleSelect = () => {
   const handleSelect = e => setLocale(e.target.value);
   return (
     <select name="locale" id="locale-select" className="localeSelector" onChange={handleSelect} value={locale}>
+      <option value={LocaleConstants.BRAZILIAN_PORTUGUESE}>Français</option>
       <option value={LocaleConstants.ENGLISH}>English</option>
       <option value={LocaleConstants.ESPANOL}>Español</option>
       <option value={LocaleConstants.FRANCAIS}>Français</option>
